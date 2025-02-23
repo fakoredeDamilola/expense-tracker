@@ -21,9 +21,6 @@ class ExpenseDB:
                 return expense
         return "expense not found"
 
-    def print_expense(self):
-        print(self.expenses_list,len(self.expenses_list))
-
     def to_dict(self):
         return [expense.to_dict() for expense in self.expenses_list]
         

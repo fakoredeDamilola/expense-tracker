@@ -17,8 +17,8 @@ new_expenseDB.add_expense(fifth_expense)
 
 print(new_expenseDB.to_dict())
 
-new_expenseDB.remove_expense(new_expense2.id)
+new_expenseDB.remove_expense(second_expense.id)
 
 print(new_expenseDB.to_dict())
 
-print(new_expenseDB.get_expense_by_id(new_expense2.id))
+print(new_expenseDB.get_expense_by_id(second_expense.id))
