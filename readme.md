@@ -24,7 +24,7 @@ To get started with this project, follow these steps:
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/expense-tracker.git
+git clone https://github.com/fakoredeDamilola/expense-tracker.git
 cd expense-tracker
 ```
 
@@ -70,5 +70,5 @@ expense-tracker/
 │── expense_class.py  # Defines the Expense class
 │── expense_db.py     # Manages the list of expenses
 │── main.py           # Main script to run the project
-│── README.md         # Project documentation
+│── readme.md         # Project documentation
 ```
